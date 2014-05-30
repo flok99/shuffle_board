@@ -157,3 +157,4 @@ while True:
 
 			if result1 != result2:
 				print 'Results differ: %s %s' % (result1, result2)
+				sys.exit(1)
